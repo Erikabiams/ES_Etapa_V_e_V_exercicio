@@ -27,7 +27,7 @@ def calcular_multa(velocidade):
     >>> calcular_multa(-8)
     'Velocidade inválida!'
     
-    >>> calcular_multa("cinco")
+    >>> calcular_multa("trinta quilômetros")
     'Velocidade inválida!'
     """
    
@@ -49,3 +49,4 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod(verbose=True)
+
